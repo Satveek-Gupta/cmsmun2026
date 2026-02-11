@@ -1,8 +1,8 @@
 @import "tailwindcss";
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --background: #020617;
+  --foreground: #e5e7eb;
 }
 
 @theme inline {
@@ -10,17 +10,55 @@
   --color-foreground: var(--foreground);
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
+
+  --color-navy: #020617;
+  --color-navy-light: #020c21;
+  --color-cyan-accent: #22d3ee;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+html {
+  scroll-behavior: smooth;
 }
 
 body {
-  background: var(--background);
+  background: radial-gradient(circle at top, #1d2a4d 0, #020617 55%);
   color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
 }
+
+.bg-navy {
+  background-color: color-mix(in srgb, #020617 90%, #020c21 10%);
+}
+
+.bg-navy-light {
+  background-color: #020c21;
+}
+
+.hero-overlay {
+  position: relative;
+  isolation: isolate;
+}
+
+.hero-overlay::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: radial-gradient(circle at top, rgba(34, 211, 238, 0.28), transparent 55%),
+    linear-gradient(to bottom, rgba(15, 23, 42, 0.95), rgba(15, 23, 42, 0.96));
+  z-index: 0;
+}
+
+.hero-overlay > * {
+  position: relative;
+  z-index: 10;
+}
+
+.section {
+  padding-block: 4rem;
+}
+
+@media (min-width: 768px) {
+  .section {
+    padding-block: 5rem;
+  }
+}
+
