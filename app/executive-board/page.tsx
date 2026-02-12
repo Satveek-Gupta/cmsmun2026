@@ -84,12 +84,12 @@ const committees = [
     chairperson: {
       name: "Sankalp Chauhan",
       title: "Chairperson",
-      image: "/eb/US_House/Sankalp_Chauhan.jpeg",
+      image: "/eb/US_HOUSE/Sankalp_Chauhan.JPEG",
     },
     viceChairperson: {
       name: "Rania Adil",
       title: "Vice Chairperson",
-      image: "/eb/US_House/Rania_Adil.jpg",
+      image: "/eb/US_HOUSE/Rania_Adil.jpg",
     },
   },
   {
