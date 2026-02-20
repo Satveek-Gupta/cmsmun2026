@@ -12,8 +12,8 @@ export function Footer() {
             CMSMUN &apos;26
           </h3>
           <p className="text-sm text-slate-300">
-            City Montessori School, Aliganj Campus I presents the fifth edition
-            of its flagship Model United Nations conference.
+            City Montessori School, Aliganj Campus I proudly presents the fifth edition
+            of its flagship Model United Nations Conference.
           </p>
         </div>
 
