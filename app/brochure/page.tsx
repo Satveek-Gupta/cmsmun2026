@@ -26,7 +26,7 @@ export default function BrochurePage() {
             </p>
             <div className="mt-6">
               <a
-                href="https://drive.google.com/file/d/1a5LMfaCnamv0TbkmQ7FdXFOBDskv8G_m/view?usp=sharing"
+                href="https://drive.google.com/file/d/1rUc8PQJf4zWYNEUBpbymOZW16O0pXmzH/view"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center justify-center rounded-full bg-cyan-300 px-8 py-3 text-xs font-semibold uppercase tracking-[0.22em] text-slate-900 shadow-lg shadow-cyan-500/25 transition hover:bg-cyan-200"
@@ -40,7 +40,7 @@ export default function BrochurePage() {
             <div className="aspect-[4/3] overflow-hidden rounded-lg border border-white/10 bg-slate-950/70">
               <iframe
                 title="CMSMUN 2026 Conference Brochure"
-                src="https://drive.google.com/file/d/1a5LMfaCnamv0TbkmQ7FdXFOBDskv8G_m/preview"
+                src="https://drive.google.com/file/d/1rUc8PQJf4zWYNEUBpbymOZW16O0pXmzH/preview"
                 className="h-full w-full"
                 allow="autoplay"
               />
