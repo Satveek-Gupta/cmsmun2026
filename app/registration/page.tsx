@@ -27,7 +27,7 @@ export default function RegistrationPage() {
               delegation size, faculty advisors and preferred committees.
             </p>
             <a
-              href="https://docs.google.com/forms/d/e/1FAIpQLSdCtD2vcyrPJQ7MCjnrKe8Gp8Mnv6DTKrorPnc4dWRkwzkq3g/viewform"
+              href="https://forms.gle/huUNG3onhqhfwRi59"
               target="_blank"
               rel="noopener noreferrer"
               className="mt-6 inline-flex w-full items-center justify-center rounded-full bg-cyan-300 px-8 py-3 text-[11px] font-semibold uppercase tracking-[0.22em] text-slate-900 shadow-lg shadow-cyan-500/25 transition hover:bg-cyan-200"
@@ -46,7 +46,7 @@ export default function RegistrationPage() {
               contact details and academic information are filled in correctly.
             </p>
             <a
-              href="https://docs.google.com/forms/d/e/EXAMPLE_INDIVIDUAL_DELEGATE_FORM/viewform"
+              href="https://forms.gle/76WCkS5zhdDjKSTM8"
               target="_blank"
               rel="noopener noreferrer"
               className="mt-6 inline-flex w-full items-center justify-center rounded-full bg-cyan-300 px-8 py-3 text-[11px] font-semibold uppercase tracking-[0.22em] text-slate-900 shadow-lg shadow-cyan-500/25 transition hover:bg-cyan-200"
@@ -59,5 +59,3 @@ export default function RegistrationPage() {
     </section>
   );
 }
-
-

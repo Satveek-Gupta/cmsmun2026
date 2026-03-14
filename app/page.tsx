@@ -58,7 +58,7 @@ export default function Home() {
             About CMSMUN &apos;26
           </h2>
           <div className="mt-4">
-            <div className="mx-auto max-w-3xl space-y-4 text-center text-sm leading-relaxed text-slate-100/90 md:text-[15px]">
+            <div className="mx-auto max-w-3xl space-y-4 text-justify text-sm leading-relaxed text-slate-100/90 md:text-[15px]">
               <p>
                 The sheer beauty of City Montessori School lies in its grazed presence across the city of Lucknow. A space that challenges youth to grow, mature and not lose their individuality at the same time. Be it leading from the front, managing from in between or stabilizing from behind---CMS teaches its students for every scenario.
                 The dream seen by our esteemed founder manager Late Dr Jagdish Gandhi gets closer to being possible with each passing day, with each passing CMSMUN.
