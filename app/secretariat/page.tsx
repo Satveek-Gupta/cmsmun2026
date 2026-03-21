@@ -1,22 +1,5 @@
 import Image from "next/image";
-
-const secretariat = [
-  {
-    name: "??",
-    role: "Secretary General",
-    image: "/secretariat/CMSMUN.jpeg",
-  },
-  {
-    name: "??",
-    role: "Director General",
-    image: "/secretariat/CMSMUN.jpeg",
-  },
-  {
-    name: "??",
-    role: "Under-Secretary-General for Administration",
-    image: "/secretariat/CMSMUN.jpeg",
-  },
-];
+import secretariat from "@/data/secretariat.json";
 
 export default function SecretariatPage() {
   return (
