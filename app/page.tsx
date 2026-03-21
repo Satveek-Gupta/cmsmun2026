@@ -25,18 +25,18 @@ export default function Home() {
             </p>
           </div>
           <Countdown targetDate="2026-04-24T09:00:00" />
-          <p className="max-w-2xl text-sm text-slate-200/90 md:text-base">
+          <p className="max-w-3xl text-[15px] font-light leading-8 tracking-wide text-slate-300 md:text-lg md:leading-10 drop-shadow-md">
             A platform for young leaders to engage in{" "}
-            <span className="font-semibold text-cyan-300">
-              realistic diplomacy
+            <span className="mx-1 inline-flex items-center rounded-md border border-cyan-400/30 bg-cyan-900/30 px-2 py-0.5 text-xs font-bold uppercase tracking-widest text-cyan-200 shadow-[0_0_15px_rgba(34,211,238,0.25)] backdrop-blur-sm sm:px-3 sm:py-1 sm:text-[12px]">
+              Realistic Diplomacy
             </span>
             ,{" "}
-            <span className="font-semibold text-cyan-300">
-              meaningful activism
-            </span>{" "}
-            and{" "}
-            <span className="font-semibold text-cyan-300">
-              global perspectives
+            <span className="mx-1 inline-flex items-center rounded-md border border-cyan-400/30 bg-cyan-900/30 px-2 py-0.5 text-xs font-bold uppercase tracking-widest text-cyan-200 shadow-[0_0_15px_rgba(34,211,238,0.25)] backdrop-blur-sm sm:px-3 sm:py-1 sm:text-[12px]">
+              Meaningful Activism
+            </span>
+            , and{" "}
+            <span className="mx-1 inline-flex items-center rounded-md border border-cyan-400/30 bg-cyan-900/30 px-2 py-0.5 text-xs font-bold uppercase tracking-widest text-cyan-200 shadow-[0_0_15px_rgba(34,211,238,0.25)] backdrop-blur-sm sm:px-3 sm:py-1 sm:text-[12px]">
+              Global Perspectives
             </span>{" "}
             in the heart of Lucknow.
           </p>
@@ -61,11 +61,11 @@ export default function Home() {
         </div>
       </section>
 
-      <section id="about" className="section relative bg-navy-light/70 py-24 overflow-hidden">
-        {/* Decorative background glow */}
-        <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 h-[400px] w-[600px] rounded-full bg-cyan-500/5 blur-[120px] pointer-events-none" />
+      <section id="about" className="section relative py-24 overflow-hidden">
+        {/* Softening radial glow */}
+        <div className="absolute z-0 top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 h-[600px] w-[800px] rounded-full bg-cyan-900/10 blur-[150px] pointer-events-none" />
         
-        <div className="relative mx-auto max-w-5xl px-4 md:px-6 lg:px-8">
+        <div className="relative z-10 mx-auto max-w-5xl px-4 md:px-6 lg:px-8">
           <div className="mb-12 flex flex-col items-center justify-center space-y-4 text-center">
             <h2 className="text-2xl font-bold uppercase tracking-[0.3em] text-cyan-300 drop-shadow-[0_0_15px_rgba(34,211,238,0.5)]" style={{ fontFamily: "'Futura', 'Trebuchet MS', sans-serif" }}>
               About CMSMUN &apos;26

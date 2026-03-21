@@ -1,4 +1,4 @@
-import guides from "../../data/background-guides.json";
+import guides from "@/data/background-guides.json";
 
 export default function BackgroundGuidesPage() {
   return (
