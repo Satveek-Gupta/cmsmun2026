@@ -10,11 +10,9 @@ const navLinks = [
   { href: "/", label: "Home" },
   { href: "/#about", label: "About" },
   { href: "/executive-board", label: "Executive Board" },
-  { href: "/committees", label: "Committees & Agendas" },
-  { href: "/background-guides", label: "Background Guides" },
+  { href: "/committees", label: "Committees" },
   { href: "/secretariat", label: "Secretariat" },
   { href: "/brochure", label: "Brochure" },
-  { href: "/registration", label: "Registration" },
   { href: "/contact", label: "Contact" },
 ];
 
@@ -60,7 +58,7 @@ export function Navbar() {
               <Link
                 key={link.href}
                 href={link.href}
-                className={`relative pb-1 transition-colors hover:text-cyan-300 ${
+                className={`relative whitespace-nowrap pb-1 transition-colors hover:text-cyan-300 ${
                   isActive(link.href)
                     ? "text-cyan-300"
                     : "text-slate-200/75"
@@ -73,12 +71,20 @@ export function Navbar() {
               </Link>
             ))}
           </div>
-          <Link
-            href="/registration"
-            className="hidden items-center justify-center rounded-full bg-cyan-300 px-4 py-2 text-[10px] font-semibold uppercase tracking-[0.22em] text-slate-900 shadow-md shadow-cyan-500/40 transition hover:bg-cyan-200 lg:inline-flex"
-          >
-            Register
-          </Link>
+          <div className="flex gap-3">
+            <Link
+              href="/portal"
+              className="hidden items-center justify-center rounded-full border border-indigo-400/50 bg-indigo-900/40 px-4 py-2 text-[10px] font-semibold uppercase tracking-[0.22em] text-indigo-300 shadow-md transition hover:bg-indigo-900/80 lg:inline-flex"
+            >
+              Portals
+            </Link>
+            <Link
+              href="/registration"
+              className="hidden items-center justify-center rounded-full bg-cyan-300 px-4 py-2 text-[10px] font-semibold uppercase tracking-[0.22em] text-slate-900 shadow-md shadow-cyan-500/40 transition hover:bg-cyan-200 lg:inline-flex"
+            >
+              Register
+            </Link>
+          </div>
         </div>
       </nav>
 
@@ -99,13 +105,22 @@ export function Navbar() {
                 {link.label}
               </Link>
             ))}
-            <Link
-              href="/registration"
-              onClick={() => setOpen(false)}
-              className="mt-1 inline-flex items-center justify-center rounded-full bg-cyan-300 px-4 py-2 text-[10px] font-semibold uppercase tracking-[0.22em] text-slate-900 shadow-md shadow-cyan-500/40 transition hover:bg-cyan-200"
-            >
-              Register
-            </Link>
+            <div className="mt-3 flex flex-col gap-2 border-t border-white/10 pt-3">
+              <Link
+                href="/portal"
+                onClick={() => setOpen(false)}
+                className="inline-flex items-center justify-center rounded-full border border-indigo-400/50 bg-indigo-900/40 px-4 py-2 text-[10px] font-semibold uppercase tracking-[0.22em] text-indigo-300 shadow-md transition hover:bg-indigo-900/80"
+              >
+                Portals
+              </Link>
+              <Link
+                href="/registration"
+                onClick={() => setOpen(false)}
+                className="inline-flex items-center justify-center rounded-full bg-cyan-300 px-4 py-2 text-[10px] font-semibold uppercase tracking-[0.22em] text-slate-900 shadow-md shadow-cyan-500/40 transition hover:bg-cyan-200"
+              >
+                Register
+              </Link>
+            </div>
           </div>
         </div>
       )}

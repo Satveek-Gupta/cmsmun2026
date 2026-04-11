@@ -75,10 +75,10 @@ export default function CommitteesPage() {
                 </p>
               </div>
               <a
-                href="/background-guides"
+                href="/portal"
                 className="mt-4 inline-flex items-center justify-center rounded-full border border-cyan-300/70 bg-navy-light/80 px-4 py-2 text-[10px] font-semibold uppercase tracking-[0.22em] text-cyan-100 transition hover:bg-cyan-300/10"
               >
-                View Background Guide
+                Access Portal
               </a>
             </div>
           ))}
