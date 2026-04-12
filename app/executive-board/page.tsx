@@ -6,12 +6,12 @@ const committees = [
     chairperson: {
       name: "Gouri Lavania",
       title: "Chairperson",
-      image: "/eb/UNGA/Gouri_Lavania.jpg",
+      image: "https://cdn.satveek.me/eb/UNGA/Gouri_Lavania.jpg",
     },
     viceChairperson: {
       name: "Urvashi Singh",
       title: "Vice Chairperson",
-      image: "/eb/UNGA/Urvashi_Singh.png",
+      image: "https://cdn.satveek.me/eb/UNGA/Urvashi_Singh.png",
     },
   },
   {
@@ -19,12 +19,12 @@ const committees = [
     chairperson: {
       name: "Domil Antony Johnson",
       title: "Chairperson",
-      image: "/eb/UNSC/Domil_Antony.jpeg",
+      image: "https://cdn.satveek.me/eb/UNSC/Domil_Antony.jpeg",
     },
     viceChairperson: {
       name: "Khyati Naudiyal",
       title: "Vice Chairperson",
-      image: "/eb/UNSC/Khyati_Naudiyal.jpg",
+      image: "https://cdn.satveek.me/eb/UNSC/Khyati_Naudiyal.jpg",
     },
   },
   {
@@ -32,12 +32,12 @@ const committees = [
     chairperson: {
       name: "Sarthak Singh",
       title: "President",
-      image: "/eb/CCC/Sarthak_Singh.JPG",
+      image: "https://cdn.satveek.me/eb/CCC/Sarthak_Singh.JPG",
     },
     viceChairperson: {
       name: "Vansh Yadav",
       title: "Chief National Security Advisor",
-      image: "/eb/CCC/Vansh_Yadav.jpeg",
+      image: "https://cdn.satveek.me/eb/CCC/Vansh_Yadav.jpeg",
     },
   },
   {
@@ -45,12 +45,12 @@ const committees = [
     chairperson: {
       name: "Bhumika Pandey",
       title: "Chairperson",
-      image: "/eb/IAEA/Bhumika_Pandey.jpeg",
+      image: "https://cdn.satveek.me/eb/IAEA/Bhumika_Pandey.jpeg",
     },
     viceChairperson: {
       name: "Ishita Huria",
       title: "Vice Chairperson",
-      image: "/eb/IAEA/Ishita_Huria.jpeg",
+      image: "https://cdn.satveek.me/eb/IAEA/Ishita_Huria.jpeg",
     },
   },
   {
@@ -58,12 +58,12 @@ const committees = [
     chairperson: {
       name: "Mukunda Nand Dwivedi",
       title: "Director",
-      image: "/eb/COPUOS/Mukunda_Nand_Dwivedi.jpeg",
+      image: "https://cdn.satveek.me/eb/COPUOS/Mukunda_Nand_Dwivedi.jpeg",
     },
     viceChairperson: {
       name: "NK Devansh Tiwari",
       title: "Deputy Director",
-      image: "/eb/COPUOS/NK_Devansh.jpeg",
+      image: "https://cdn.satveek.me/eb/COPUOS/NK_Devansh.jpeg",
     },
   },
   {
@@ -71,12 +71,12 @@ const committees = [
     chairperson: {
       name: "Shresth Bindal",
       title: "Secretary General",
-      image: "/eb/OAS/Shreshth_Bindal.png",
+      image: "https://cdn.satveek.me/eb/OAS/Shreshth_Bindal.png",
     },
     viceChairperson: {
       name: "Shivank Shukla",
       title: "Assistant Secretary General",
-      image: "/eb/OAS/Shivank_Shukla.jpg",
+      image: "https://cdn.satveek.me/eb/OAS/Shivank_Shukla.jpg",
     },
   },
   {
@@ -84,12 +84,12 @@ const committees = [
     chairperson: {
       name: "Sankalp Chauhan",
       title: "Chairperson",
-      image: "/eb/US_HOUSE/Sankalp_Chauhan.JPEG",
+      image: "https://cdn.satveek.me/eb/US_HOUSE/Sankalp_Chauhan.JPEG",
     },
     viceChairperson: {
       name: "Rania Adil",
       title: "Vice Chairperson",
-      image: "/eb/US_HOUSE/Rania_Adil.jpg",
+      image: "https://cdn.satveek.me/eb/US_HOUSE/Rania_Adil.jpg",
     },
   },
   {
@@ -97,17 +97,17 @@ const committees = [
     chairperson: {
       name: "Yashab Abbas",
       title: "Speaker",
-      image: "/eb/LS/Yashab_Abbas.jpeg",
+      image: "https://cdn.satveek.me/eb/LS/Yashab_Abbas.jpeg",
     },
     viceChairperson: {
       name: "Sashreek Pandey",
       title: "Deputy Speaker",
-      image: "/eb/LS/Sashreek_Pandey.jpeg",
+      image: "https://cdn.satveek.me/eb/LS/Sashreek_Pandey.jpeg",
     },
     coDeputySpeaker: {
       name: "Chirag Singh",
       title: "Co-Deputy Speaker",
-      image: "/eb/LS/Chirag_Singh.jpeg",
+      image: "https://cdn.satveek.me/eb/LS/Chirag_Singh.jpeg",
     },
   },
   {
@@ -115,12 +115,12 @@ const committees = [
     chairperson: {
       name: "Aditya Kumar Upadhyay",
       title: "President",
-      image: "/eb/ICJ/Aditya_Kumar_Upadhyay.jpeg",
+      image: "https://cdn.satveek.me/eb/ICJ/Aditya_Kumar_Upadhyay.jpeg",
     },
     viceChairperson: {
       name: "Trisha Verma",
       title: "Vice President",
-      image: "/eb/ICJ/Trisha_Verma.jpeg",
+      image: "https://cdn.satveek.me/eb/ICJ/Trisha_Verma.jpeg",
     },
   },
   {
@@ -128,12 +128,12 @@ const committees = [
     chairperson: {
       name: "Vinamra Koolwal",
       title: "Head of Reporting",
-      image: "/eb/IP/Vinamra_Koolwal.jpeg",
+      image: "https://cdn.satveek.me/eb/IP/Vinamra_Koolwal.jpeg",
     },
     viceChairperson: {
       name: "Luke Jason Das",
       title: "Head of Photography",
-      image: "/eb/IP/Luke_Jason_Das.jpeg",
+      image: "https://cdn.satveek.me/eb/IP/Luke_Jason_Das.jpeg",
     },
   },
 ];
