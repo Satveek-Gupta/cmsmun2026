@@ -1,4 +1,5 @@
 import { cookies } from "next/headers";
+import Link from "next/link";
 import { AddDelegateForm } from "@/components/admin/AddDelegateForm";
 import { UploadGuideForm } from "@/components/admin/UploadGuideForm";
 import { BulkImportForm } from "@/components/admin/BulkImportForm";
@@ -19,8 +20,17 @@ export default async function AdminPage() {
           CMSMUN Admin Panel
         </h1>
         <p className="text-sm font-medium uppercase tracking-[0.2em] text-emerald-400">
-          Add Data & Upload Guides
+          Management & Oversight Hub
         </p>
+
+        <div className="mt-8 flex flex-wrap justify-center gap-4">
+          <Link 
+            href="/admin/analytics" 
+            className="flex items-center gap-2 rounded-xl border border-cyan-400/30 bg-cyan-400/10 px-6 py-2 text-xs font-bold uppercase tracking-widest text-cyan-200 transition-all hover:bg-cyan-400 hover:text-slate-900"
+          >
+            📊 Analytics
+          </Link>
+        </div>
       </div>
 
       <div className="flex w-full flex-col md:flex-row gap-8">
