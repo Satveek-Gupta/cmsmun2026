@@ -17,9 +17,9 @@ const committees = [
   {
     name: "United Nations Security Council",
     chairperson: {
-      name: "Domil Antony Johnson",
+      name: "Aman Yadav",
       title: "Chairperson",
-      image: "https://cdn.satveek.me/eb/UNSC/Domil_Antony.jpeg",
+      image: "https://cdn.satveek.me/eb/UNSC/Aman_Yadav.jpeg",
     },
     viceChairperson: {
       name: "Khyati Naudiyal",
