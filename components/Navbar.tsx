@@ -12,6 +12,7 @@ const navLinks = [
   { href: "/executive-board", label: "Executive Board" },
   { href: "/committees", label: "Committees" },
   { href: "/secretariat", label: "Secretariat" },
+  { href: "/code-of-conduct", label: "Rules" },
   { href: "/brochure", label: "Brochure" },
   { href: "/contact", label: "Contact" },
 ];
